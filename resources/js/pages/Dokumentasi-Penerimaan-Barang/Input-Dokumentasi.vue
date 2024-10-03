@@ -40,7 +40,7 @@
         <div class="card-header">
             <h3 class="card-title">{{ item.item }}</h3>
             <div class="card-toolbar">
-                <a href="/dokumentasi-penerimaan-barang/material/pilih-foto" class="btn btn" style="background-color: #1E906E; color: white;"><img src="/assets/media/logos/camera.png" alt=""></a>
+                <a href="/dokumentasi-penerimaan-barang/input/open-camera-material" class="btn btn" style="background-color: #1E906E; color: white;"><img src="/assets/media/logos/camera.png" alt=""></a>
             </div>
         </div>
         <div class="card-body">

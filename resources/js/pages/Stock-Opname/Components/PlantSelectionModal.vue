@@ -8,7 +8,7 @@
             {{ plant.name }}
           </option>
         </select>
-        <button class="btn btn-danger" @click="onClose">Cancel</button>
+        <button class="btn btn-dark" @click="onChoose">Lanjutkan</button>
       </div>
     </div>
   </template>
@@ -31,15 +31,22 @@
   
   const selectedPlant = ref('');
   
-  const onPlantSelected = () => {
+  // const onPlantSelected = () => {
+  //   if (selectedPlant.value) {
+  //     emit('plantSelected', selectedPlant.value);
+  //   }
+  // };
+
+  const onChoose = () => {
     if (selectedPlant.value) {
       emit('plantSelected', selectedPlant.value);
+      emit('close');
     }
-  };
+  }
   
-  const onClose = () => {
-    emit('close');
-  };
+  // const onClose = () => {
+  //   emit('close');
+  // };
   </script>
   
   <style scoped>
