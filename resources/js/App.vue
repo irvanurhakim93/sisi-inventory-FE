@@ -89,6 +89,16 @@
               >
                 <!--Menu 2-->
                 <div data-kt-menu-trigger="click" class="menu-item menu-acordion">
+                  <router-link to="/profile" class="menu-link">
+                        <img src="assets/media/logos/mulyono.png" style="height: 45px;" alt="" class="">
+                        <span style="margin-left: 20px; color: black"><b>Farhan Mulyono</b></span>
+                      </router-link>
+                </div>
+                <!--Separator-->
+                <div class="separator border-1 border-dark my-10"></div>
+                <!--Separator--->
+
+                <div data-kt-menu-trigger="click" class="menu-item menu-acordion">
                   <router-link to="/dashboard" class="menu-link">
                         <span class="menu-title" style="color: black;">Dashboard</span>
                       </router-link>
@@ -108,6 +118,10 @@
                         <span class="menu-title" style="color: black;">Stock Opname</span>
                       </router-link>
                 </div>
+                                <!--Separator-->
+                                <div class="separator border-1 border-dark my-10"></div>
+                <!--Separator--->
+
 
                 <div data-kt-menu-trigger="click" class="menu-item menu-acordion">
                   <router-link to="/" class="menu-link">
