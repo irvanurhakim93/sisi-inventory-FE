@@ -5,5 +5,5 @@ import { StreamBarcodeReader } from 'vue-barcode-reader';
 <template>
     <StreamBarcodeReader
     @decode="onDecode"
-@loaded="onLoaded"/>
+    @loaded="onLoaded"/>
 </template>

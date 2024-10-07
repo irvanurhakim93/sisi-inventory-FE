@@ -316,6 +316,7 @@
 </template>
 
 <script>
+import VueExcelEditor from 'vue3-excel-editor'
 import PLogin from "./pages/Login.vue";
 import moment from "moment";
 // const date = new Date();
@@ -323,6 +324,7 @@ export default {
   name: "App",
   components: {
     PLogin,
+    VueExcelEditor
   },
   data() {
     return {
