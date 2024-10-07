@@ -10,16 +10,36 @@ const plants = ref([
   // Add more plants as needed
 ]);
 
+
+
 const selectedPlant = ref(null);
 const showModal = ref(true);
+const showErrorModal = ref(false);
+const scannedBarcode = ref('');
+const validBarcodes = ref(['1234567890', '0987654321']); //Contoh barcode yg valid
 
 const handlePlantSelected = (plantId) => {
   selectedPlant.value = plantId;
-  showModal.value = false; // Close modal after selection
+  showModal.value = false; // 
 };
 
 const handleCloseModal = () => {
-  showModal.value = false; // Close modal without selection
+  showModal.value = false; };
+
+const handleBarcodeScanned = (barcode) => {
+  scannedBarcode.value = barcode;
+  
+  // Check if the scanned barcode is valid
+  if (!validBarcodes.value.includes(barcode)) {
+    showErrorModal.value = true; // Show error modal if barcode is invalid
+  } else {
+    // Proceed with valid barcode logic here
+    console.log('Valid barcode scanned:', barcode);
+  }
+};
+
+const handleCloseErrorModal = () => {
+  showErrorModal.value = false; // Close the error modal
 };
 
 </script>
@@ -41,6 +61,12 @@ const handleCloseModal = () => {
       <p>Arahkan kamera anda pada Barcode untuk indentifikasi barang</p>
     </div>
   </div>
+
+  <ErrorModal
+    :isVisible="showErrorModal"
+    @close="handleCloseErrorModal"
+    message="Materi X pada Plant (xxx) Tidak Ditemukan!."
+  />
   
 
 </template>

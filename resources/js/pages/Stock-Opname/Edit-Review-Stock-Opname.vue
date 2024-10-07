@@ -9,14 +9,7 @@
                 <br>
                 <label for="" class="text-muted">Stock Sistem</label>
                 <input type="text" name="" id="" class="form-control">
-                <br>
-                <label for="">Stock Fisik</label>
-                <input type="text" name="" id="" class="form-control">
-                <small class="text-danger">Note: Stock fisik diisikan apabila jumlah ada selisih dengan stcok sistem</small>
-                <br>
-                <br>
-                <label for="">Catatan</label>
-                <input type="text" name="" id="" class="form-control">
+                
         </div>
         <div class="card-footer">
             <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#draft_modal">Draft</button>

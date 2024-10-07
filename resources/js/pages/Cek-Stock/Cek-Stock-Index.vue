@@ -32,7 +32,9 @@ const handleCloseModal = () => {
     @close="handleCloseModal"
   />
 
-<ScanBarcodeOpenCamera/>
+<div v-if="selectedPlant">
+  <ScanBarcodeOpenCamera/>
+</div>
 
 <div class="card shadow-sm" style="width: 338px;">
         <div class="card-body center">

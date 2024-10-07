@@ -18,22 +18,7 @@
         
         </div></a>
         
-        <a href="/stock-opname/review-stock-opname" style="color: black;">
-        <div class="card card-flush shadow-sm" style="background-color: #FFEBF5;">
-            <div class="card-header">
-                <div class="card-title">
-                    <img src="assets/media/logos/scan-barcode.png" alt="">
-                </div>
-                <b>Review Stock Opname</b>
-                <div class="card-toolbar">
         
-                </div>
-            </div>
-            <div class="card-body py-5">
-                Menampilkan draft stock opname.
-            </div>
-        
-        </div></a>
         
         <!--Card 2-->
         <a href="/cek-stock" style="color: black;">
@@ -82,6 +67,22 @@
             </div>
         </div>
         </a>
+
+        <a href="/stock-opname/review-stock-opname" style="color: black;">
+        <div class="card card-flush shadow-sm" style="background-color: #E2F2FD;">
+            <div class="card-header">
+                <div class="card-title">
+                    <img src="assets/media/logos/review_stock_opname.png" alt="">
+                </div>
+                <b>Review Stock Opname</b>
+                <div class="card-toolbar">
+        
+                </div>
+            </div>
+            <div class="card-body py-5">
+                Menampilkan draft stock opname.
+            </div>
+        </div></a>
 
     </div>
 

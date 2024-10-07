@@ -24,7 +24,7 @@
         <div class="card card-flush shadow-sm">
     <div class="card-header">
         <div class="d-flex align-items-center justify-content-between w-100">
-            <a href="/dokumentasi-penerimaan-barang/input/op/pilih-foto" class="btn btn" style="z-index: 1; position: relative; background-color: #000; color: white;">
+            <a href="/dokumentasi-penerimaan-barang/input/open-camera-op" class="btn btn" style="z-index: 1; position: relative; background-color: #000; color: white;">
                <img src="/assets/media/logos/camera.png" alt=""> Dokumentasi OP
             </a>
             <input type="text" class="form-control" placeholder="cari.." style="max-width: 120px; z-index: 0; position: relative;">
