@@ -1,5 +1,6 @@
 <template>
     <vue-office-excel
+        v-if="excel"
         :src="excel"
         style="height: 100vh;"
         @rendered="renderedHandler"
@@ -29,4 +30,7 @@ export default {
         }
     }
 }
+
+
+
 </script>
